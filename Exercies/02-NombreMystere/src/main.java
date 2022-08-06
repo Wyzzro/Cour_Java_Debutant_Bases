@@ -4,6 +4,7 @@ import java.util.Random;
 public class main {
     public static void main(String[] args) throws IOException {
         /*
+        Difficulté : Moyen
         Dans cet exercice, vous devez générer un nombre aléatoirement, l'utilisateur devra taper dans la console un nombre,si
         son nombre est inférieur au nombre mystère généré aléatoirement alors vous lui afficher "Le nombre mystère est plus
         grand !" Sinon s'il est supérieur au nombre mystère, vous devez lui afficher "Le nombre mystère est plus petit !". Quand
