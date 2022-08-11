@@ -16,10 +16,7 @@ public class Main {
         while (indexNewArray < 10) {
             int tempIndex = 0;
             for (int i = 0; i < badArray.length; i++) {
-                if (i == 0) {
-                    temp = badArray[i];
-                }
-                else if(badArray[i] > temp) {
+                if (i == 0 || badArray[i] > temp) {
                     temp = badArray[i];
                 }
             }
